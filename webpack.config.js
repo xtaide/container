@@ -47,9 +47,9 @@ module.exports = (_, argv) => ({
             name: "container",
             filename: "remoteEntry.js",
             remotes: {
-                mf1: "mf1@http://localhost:8081/remoteEntry.js",
-                mf2: "mf2@http://localhost:8082/remoteEntry.js",
-                store: "store@http://localhost:8083/remoteEntry.js"
+                mf1: "mf1@https://mf1-git-main-xtaide.vercel.app/remoteEntry.js",
+                mf2: "mf2@https://mf2-git-main-xtaide.vercel.app/remoteEntry.js",
+                store: "store@https://store-git-main-xtaide.vercel.app/remoteEntry.js"
 
             },
             exposes: {},

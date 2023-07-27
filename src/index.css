@@ -4,11 +4,18 @@ body {
 }
 
 .container {
-  width: 600px;
-  font-size: 3rem;
+  width: 70svh;
+  font-size: 3em;
   margin: auto;
+
 }
 
 .counter {
-  max-width: 900px;
+}
+
+@media screen and (max-width: 900px) {
+  .container {
+    font-size: 2em;
+    width: 90svw;
+  }
 }

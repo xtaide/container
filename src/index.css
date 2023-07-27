@@ -1,0 +1,14 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+.container {
+  width: 600px;
+  font-size: 3rem;
+  margin: auto;
+}
+
+.counter {
+  max-width: 900px;
+}
